@@ -1,0 +1,3 @@
+This paper presents a 8-bit Static RAM(SRAM), implemented in a Mixed Signal Domain using **eSim and NgVeri** . Here **_Static signifies that the memory will be retained till the power supply is connected to the RAM. Here Random Access means that the user read/write data from memory irrespective of which sequence the data is present in i.e. to access/modify the time taken will be same for every bit position._** SRAM's have high switching speed and low power consumption.  The applications of this circuit can be a simple memory element, a lookup table for an FPGA etc.
+
+**_Keywords- 8T memory cell, Static RAM._**
