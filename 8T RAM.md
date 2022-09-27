@@ -1,1 +1,2 @@
-
+**_8T-SRAM cell where two transistors, one NMOS and one PMOS are added to the standard 6T-SRAM cell while the mechanism of read is single-ended_**.
+8T-SRAM cell uses a single-ended read scheme which reduces the swing of bit lines. The 8T-SRAM cell provides significantly improved RSNM (similar to the Hold Static Noise Margin (HSNM) of the standard 6T-SRAM cell) with similar access time, write time, and write margin.
