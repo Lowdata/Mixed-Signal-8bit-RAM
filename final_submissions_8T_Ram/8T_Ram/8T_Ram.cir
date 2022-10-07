@@ -1,0 +1,20 @@
+* C:\FOSSEE\ayush\8T_Ram\8T_Ram.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/07/22 15:26:15
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M4  Net-_M4-Pad1_ /Q_bar Net-_M3-Pad1_ Net-_M3-Pad1_ mosfet_n		
+M3  Net-_M3-Pad1_ Net-_M3-Pad2_ /Q /Q mosfet_n		
+M6  /Q_bar /Q Net-_M4-Pad1_ Net-_M4-Pad1_ mosfet_n		
+RWL1  Net-_M4-Pad1_ Net-_RWL1-Pad2_ Net-_M1-Pad1_ Net-_M1-Pad1_ p3		
+WWL1  /Q Net-_U1-Pad2_ Net-_M1-Pad3_ Net-_M1-Pad3_ n3		
+M2  /Q /Q_bar Net-_M2-Pad3_ /Q mosfet_p		
+M5  Net-_M2-Pad3_ /Q /Q_bar /Q_bar mosfet_p		
+M1  Net-_M1-Pad1_ /Q Net-_M1-Pad3_ Net-_M1-Pad1_ mosfet_p		
+scmode1  SKY130mode		
+U1  Net-_M1-Pad3_ Net-_U1-Pad2_ Net-_RWL1-Pad2_ Net-_M3-Pad2_ Net-_M2-Pad3_ /Q /Q_bar Net-_M4-Pad1_ PORT		
+
+.end

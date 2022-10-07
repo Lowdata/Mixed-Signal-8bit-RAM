@@ -1,0 +1,90 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:power
+LIBS:eSim_Plot
+LIBS:transistors
+LIBS:conn
+LIBS:eSim_User
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:eSim_Analog
+LIBS:eSim_Devices
+LIBS:eSim_Digital
+LIBS:eSim_Hybrid
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Power
+LIBS:eSim_Sources
+LIBS:eSim_Subckt
+LIBS:eSim_Nghdl
+LIBS:eSim_Ngveri
+LIBS:eSim_SKY130
+LIBS:eSim_SKY130_Subckts
+LIBS:1_BIT_RAM_8T-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ayushp_writer_ckt U?
+U 1 1 63402F39
+P 450 3650
+F 0 "U?" H 3300 5450 60  0000 C CNN
+F 1 "ayushp_writer_ckt" H 3300 5650 60  0000 C CNN
+F 2 "" H 3300 5600 60  0000 C CNN
+F 3 "" H 3300 5600 60  0000 C CNN
+	1    450  3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L adc_bridge_2 U?
+U 1 1 63403393
+P 1900 1800
+F 0 "U?" H 1900 1800 60  0000 C CNN
+F 1 "adc_bridge_2" H 1900 1950 60  0000 C CNN
+F 2 "" H 1900 1800 60  0000 C CNN
+F 3 "" H 1900 1800 60  0000 C CNN
+	1    1900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dac_bridge_1 U?
+U 1 1 634033EA
+P 5100 1900
+F 0 "U?" H 5100 1900 60  0000 C CNN
+F 1 "dac_bridge_1" H 5100 2050 60  0000 C CNN
+F 2 "" H 5100 1900 60  0000 C CNN
+F 3 "" H 5100 1900 60  0000 C CNN
+	1    5100 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

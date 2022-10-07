@@ -1,0 +1,23 @@
+* c:\fossee\ayush\8t_ram\8t_ram.cir
+
+.lib "" 
+.include ""
+m4  net-_m4-pad1_ /q_bar net-_m3-pad1_ net-_m3-pad1_ mosfet_n
+m3  net-_m3-pad1_ net-_m3-pad2_ /q /q mosfet_n
+m6  /q_bar /q net-_m4-pad1_ net-_m4-pad1_ mosfet_n
+rwl1  net-_m4-pad1_ net-_rwl1-pad2_ net-_m1-pad1_ net-_m1-pad1_ p3
+wwl1  /q net-_u1-pad2_ net-_m1-pad3_ net-_m1-pad3_ n3
+m2  /q /q_bar net-_m2-pad3_ /q mosfet_p
+m5  net-_m2-pad3_ /q /q_bar /q_bar mosfet_p
+m1  net-_m1-pad1_ /q net-_m1-pad3_ net-_m1-pad1_ mosfet_p
+* s c m o d e
+* u1  net-_m1-pad3_ net-_u1-pad2_ net-_rwl1-pad2_ net-_m3-pad2_ net-_m2-pad3_ /q /q_bar net-_m4-pad1_ port
+.tran 4e-00 8e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
